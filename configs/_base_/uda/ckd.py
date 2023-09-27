@@ -1,0 +1,19 @@
+# Baseline UDA
+uda = dict(
+    type='CKD',
+    pseudo_threshold=0.968,
+    teacher_model_cfg=None,
+    cu_model_load_from='',
+    ca_model_load_from='',
+    soft_distill=False,
+    soft_distill_w=0.1,
+    proto_rectify=False,
+    rectify_on_prob=True,
+    use_pl_weight=False,
+    temp=1,
+    cu_proto_path='',
+    ca_proto_path='',
+    imnet_feature_dist_lambda=0,
+    imnet_feature_dist_classes=None,
+    imnet_feature_dist_scale_min_ratio=None,
+    debug_img_interval=1000)
