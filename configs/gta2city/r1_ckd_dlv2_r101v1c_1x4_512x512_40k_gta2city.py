@@ -1,7 +1,7 @@
 _base_ = [
     "../_base_/default_runtime.py",
     "../_base_/models/deeplabv2red_r101v1c-d8_adapter.py",
-    "../_base_/datasets/ckd_gta2city_512x512.py",
+    "../_base_/datasets/ckd_scida2tcida.py",
     # Basic UDA Self-Training
     "../_base_/uda/ckd.py",
     # AdamW Optimizer

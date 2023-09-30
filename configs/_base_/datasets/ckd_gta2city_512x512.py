@@ -1,5 +1,5 @@
 _base_ = [
-    "./uda_gta_512x512_pmd.py",
+    "./uda_scida_pmd.py",
     "./uda_cityscapes_512x512.py",
 ]
 img_norm_cfg = dict(
